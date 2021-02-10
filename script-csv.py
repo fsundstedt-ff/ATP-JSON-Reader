@@ -13,5 +13,3 @@ with open(f"output-{dateString()}.csv", "w", newline="") as c:
       
     write.writerow(results[0]) 
     write.writerows(results[1])
-
-print(results[0])
